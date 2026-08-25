@@ -1,0 +1,14 @@
+#Values for conversion entered
+Distanceinkilometer= float(input('Enter Distance in kilometer:'))
+conversionfactor=0.621371
+Distanceinmiles=Distanceinkilometer*conversionfactor
+print('Distance in Miles:',Distanceinmiles)
+#To input and convert another number
+a=input('Do you want to convert another distance? (yes/no) :')
+if a=='yes':
+    r=float(input('Enter another distance in kilometer:'))
+    q=r*conversionfactor
+    print('Distance in Miles',q)
+#Needed to end the program
+else:
+    print('Program Ended.')
